@@ -1,3 +1,9 @@
+body {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  font-family: Lato;
+  font-style: normal;
+}
 .navigation {
   list-style: none;
   padding: 0px;
@@ -33,6 +39,59 @@ button {
   cursor: pointer;
 }
 
-.button-icon {
+.button-icon,
+.button-price {
   margin-right: 10px;
+}
+
+.slide {
+  padding-top: 90px;
+  padding-bottom: 110px;
+}
+
+.slide-1 {
+  background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 40%;
+}
+
+.label {
+  background: #3dc47e;
+  border-radius: 3px;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.slide-title {
+  font-family: "Roboto Slab", serif;
+  color: #262d33;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.slide-description {
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5157;
+  max-width: 335px;
+  margin-bottom: 40px;
+}
+
+.slider {
+  position: relative;
+}
+.slaider-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+.slider-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
