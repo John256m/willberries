@@ -208,17 +208,17 @@ button {
 }
 
 .preview-item-1 {
-  background: #ffffff url("/img/preview-1.png") no-repeat bottom;
+  background: #ffffff url("../img/preview-1.png") no-repeat bottom;
   border-radius: 3px 3px 0px 0px;
 }
 
 .preview-item-2 {
-  background: #ccd5e6 url("/img/preview-2.png") no-repeat bottom;
+  background: #ccd5e6 url("../img/preview-2.png") no-repeat bottom;
 }
 
 .preview-item-3 {
   margin-top: 2px;
-  background: #ccd5e6 url("/img/preview-3.png") no-repeat bottom;
+  background: #ccd5e6 url("../img/preview-3.png") no-repeat bottom;
   border-radius: 0px 0px 3px 3px;
 }
 
