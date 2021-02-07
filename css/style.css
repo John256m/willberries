@@ -211,3 +211,120 @@ button {
   background: #ccd5e6 url("/img/preview-3.png") no-repeat bottom;
   border-radius: 0px 0px 3px 3px;
 }
+
+.section-title {
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+  color: #262d33;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.more {
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.goods-card {
+  position: relative;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 35px;
+}
+
+.goods-card .label {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+}
+
+.goods-title {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #262d33;
+}
+
+.goods-description {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+}
+
+.goods-price {
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #262d33;
+  margin-top: 30px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.footer {
+  background: #8f79d4;
+  padding-top: 40px;
+  padding-bottom: 45px;
+  color: #ffffff;
+}
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-menu-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer-text {
+  color: #e7d9ff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-line {
+  opacity: 0.5;
+}
+.top-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.top-link-text {
+  margin-right: 15px;
+}
+.payment-logo {
+  vertical-align: middle;
+  margin-right: 25px;
+}
