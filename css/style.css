@@ -61,10 +61,19 @@ button {
 .slide {
   padding-top: 90px;
   padding-bottom: 110px;
+  min-height: 570px;
 }
 
 .slide-1 {
   background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 40%;
+}
+
+.slide-2 {
+  background: #b5e0b4 url("../img/slide-image-1.png") no-repeat top right 40%;
+}
+
+.slide-3 {
+  background: #e0b4dc url("../img/slide-image-1.png") no-repeat top right 40%;
 }
 
 .label {
@@ -102,6 +111,7 @@ button {
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
+  z-index: 9;
 }
 
 .slider-button {
@@ -327,4 +337,37 @@ button {
 .payment-logo {
   vertical-align: middle;
   margin-right: 25px;
+}
+
+@media (max-width: 1200px) {
+  .slide-1 {
+    background-size: cover;
+  }
+  .card-4 {
+    background-position: right bottom;
+  }
+}
+
+@media (max-width: 992px) {
+  .slaider-nav {
+    display: none;
+  }
+  .card-3 {
+    background-size: cover;
+  }
+  .card-title.large {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slide-title {
+    font-size: 36px;
+    line-height: 1.4;
+  }
+  .card-1,
+  .card-2 {
+    background-position: left top;
+    min-height: 250px;
+  }
 }
