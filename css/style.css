@@ -111,12 +111,13 @@ button {
 }
 
 .card {
-  min-height: 370px;
+  min-height: 374px;
   border-radius: 10px;
   padding-top: 60px;
   padding-left: 46px;
   padding-right: 46px;
   padding-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .card-1 {
@@ -132,6 +133,13 @@ button {
 .card-3 {
   padding-top: 35px;
   background: #ccd5e6 url("../img/card-image-3.png") no-repeat top right 15%;
+  background-size: contain;
+}
+
+.card-4 {
+  padding-top: 35px;
+  padding-left: 25px;
+  background: #ff4f52 url("../img/card-image-4.png") no-repeat top right;
   background-size: contain;
 }
 
@@ -170,4 +178,36 @@ button {
 
 .text-light {
   color: #ffffff;
+}
+
+.preview-lent {
+  float: right;
+  margin-left: 0;
+  padding-left: 0;
+  width: 62px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 2px;
+}
+
+.preview-lent__item {
+  list-style-type: none;
+  text-align: center;
+  min-height: 56px;
+  background-color: #ccd5e6;
+}
+
+.preview-item-1 {
+  background: #ffffff url("/img/preview-1.png") no-repeat bottom;
+  border-radius: 3px 3px 0px 0px;
+}
+
+.preview-item-2 {
+  background: #ccd5e6 url("/img/preview-2.png") no-repeat bottom;
+}
+
+.preview-item-3 {
+  margin-top: 2px;
+  background: #ccd5e6 url("/img/preview-3.png") no-repeat bottom;
+  border-radius: 0px 0px 3px 3px;
 }
