@@ -7,5 +7,5 @@ Willberries workshop
 - js
 
 ### Библиотеки
-- Bootstrap v5
+- Bootstrap *v5*
 - Swiper
