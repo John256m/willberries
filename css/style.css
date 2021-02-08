@@ -325,6 +325,8 @@ button {
 }
 .footer-line {
   opacity: 0.5;
+  color: #ffffff;
+  size: 1px;
 }
 .top-link {
   text-decoration: none;
@@ -371,3 +373,4 @@ button {
     min-height: 250px;
   }
 }
+
